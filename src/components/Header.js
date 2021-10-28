@@ -29,7 +29,7 @@ function Header(props) {
           </Link>
         </li>
         <li onClick={props.onClickCart} className="mr-30 cu-p">
-          <img width={18} height={18} src="img/cart1.svg" alt="Корзина" />
+          <img width={18} height={18} src="img/cart.svg" alt="Корзина" />
           <span>{totalPrice} ₽</span>
         </li>
         <li>
