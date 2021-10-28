@@ -51,7 +51,7 @@ function Card({
                 width={17}
                 height={17}
                 src={
-                  isFavorite ? "/img/heart-liked.svg" : "/img/heart-unliked.svg"
+                  isFavorite ? "img/heart-liked.svg" : "img/heart-unliked.svg"
                 }
                 alt="Favorite"
               />
@@ -71,7 +71,7 @@ function Card({
                 width={17}
                 height={17}
                 src={
-                  isItemAdded(id) ? "/img/btn-checked.svg" : "/img/btn-plus.svg"
+                  isItemAdded(id) ? "img/btn-checked.svg" : "img/btn-plus.svg"
                 }
                 alt="Plus"
               />

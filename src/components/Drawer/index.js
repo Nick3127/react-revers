@@ -47,7 +47,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
             className="cu-p"
             width={17}
             height={17}
-            src="/img/btn-remove.svg"
+            src="img/btn-remove.svg"
             alt="Close"
           />
         </h2>
@@ -72,7 +72,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
                     className="removeBtn"
                     width={18}
                     height={18}
-                    src="/img/btn-remove.svg"
+                    src="img/btn-remove.svg"
                     alt="Remove"
                   />
                 </div>
@@ -97,7 +97,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
                 className="greenButton"
               >
                 Оформить заказ
-                <img width={18} height={18} src="/img/arrow.svg" alt="Arrow" />
+                <img width={18} height={18} src="img/arrow.svg" alt="Arrow" />
               </button>
             </div>
           </div>
@@ -111,8 +111,8 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
             }
             image={
               isOrderComplete
-                ? "/img/complete-order2.jpg"
-                : "/img/empty-cart4.gif"
+                ? "img/complete-order2.jpg"
+                : "img/empty-cart4.gif"
             }
           /> //2:56:38
         )}

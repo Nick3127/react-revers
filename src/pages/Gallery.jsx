@@ -24,16 +24,16 @@ function Gallery({ isLoading = true }) {
 
             <div className="d-flex flex-wrap justify-between">
               <p>
-                <img width={389} height={460} src="/img/11.jpg" alt="фото1" />
+                <img width={389} height={460} src="img/11.jpg" alt="фото1" />
               </p>
               <p>
-                <img width={389} height={460} src="/img/12.jpg" alt="фото2" />
+                <img width={389} height={460} src="img/12.jpg" alt="фото2" />
               </p>
               <p>
-                <img width={389} height={460} src="/img/13.jpg" alt="фото3" />
+                <img width={389} height={460} src="img/13.jpg" alt="фото3" />
               </p>
               <p>
-                <img width={389} height={460} src="/img/14.jpg" alt="фото4" />
+                <img width={389} height={460} src="img/14.jpg" alt="фото4" />
               </p>
             </div>
           </div>
